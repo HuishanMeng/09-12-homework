@@ -31,14 +31,17 @@ void draw() {
   ellipse(x+40, y+35, 60, 60);
   fill(190, 190, 190);
   triangle(x+20, y+50, x+60, y+50, x+38, y+20);
+ // color purple
   fill(138, 87, 222);
   ellipse(x+60, y+5, 60, 60);
   fill(190, 190, 190);
   triangle(x+40, y+25, x+80, y+30, x+60, y-20);
+  // color pink
   fill(252, 15, 114);
   ellipse(x+100, y+25, 65, 65);
   fill(190, 190, 190);
   triangle(x+80, y+40, x+130, y+40, x+105, y-5);
+  //color orange
   fill(252, 105, 13);
   ellipse(x+80, y+20, 55, 55);
   fill(190, 190, 190);
@@ -52,7 +55,7 @@ void draw() {
   ellipse(x+25, y+140, 10, 10);
   ellipse(x+55, y+140, 10, 10);
   arc(x+40, y+160, 10, 10, 0, PI);
- //animate the hot ballon
+ //animate the hot ballon and try to avoid the ballon from flying out of the screen 
  if (x<=650) {
     x=x+10;
   } 

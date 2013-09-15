@@ -16,7 +16,7 @@ void draw() {
   line(x+80, y+20, x+40, y+120);
   // draw the ballons and their triangle patterns
   noStroke();
-  // color green
+  // color mint green
   fill(33, 234, 176, 100);
   ellipse(x, y, 60, 60);
   fill(190, 190, 190);
@@ -26,6 +26,7 @@ void draw() {
   ellipse(x, y+20, 50, 50);
   fill(190, 190, 190);
   triangle(x-20, y+20+10, x+20, y+20+10, x, y);
+  //color green
   fill(87, 222, 119);
   ellipse(x+40, y+35, 60, 60);
   fill(190, 190, 190);

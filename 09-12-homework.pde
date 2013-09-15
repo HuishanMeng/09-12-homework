@@ -51,6 +51,7 @@ void draw() {
   ellipse(x+25, y+140, 10, 10);
   ellipse(x+55, y+140, 10, 10);
   arc(x+40, y+160, 10, 10, 0, PI);
+ //animate the hot ballon
  if (x<=650) {
     x=x+10;
   } 
